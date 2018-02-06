@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicsCRMCustomizationToolForExcel.AddIn", "DynamicsCRMCustomizationToolForExcel.AddIn\DynamicsCRMCustomizationToolForExcel.AddIn.csproj", "{969EE89F-7480-4F49-B08F-195A121B7257}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCTE.AddIn", "DCTE.AddIn\DCTE.AddIn.csproj", "{969EE89F-7480-4F49-B08F-195A121B7257}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicsCRMCustomizationToolForExcel.Model", "DynamicsCRMCustomizationToolForExcel.Model\DynamicsCRMCustomizationToolForExcel.Model.csproj", "{88D18D93-7BAE-4BB7-9DB7-6EB14FF5FFD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCTE.Model", "DCTE.Model\DCTE.Model.csproj", "{88D18D93-7BAE-4BB7-9DB7-6EB14FF5FFD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicsCRMCustomizationToolForExcel.Controller", "DynamicsCRMCustomizationToolForExcel.Controller\DynamicsCRMCustomizationToolForExcel.Controller.csproj", "{5B17F065-9190-40D5-8720-F573512FD85E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCTE.Controller", "DCTE.Controller\DCTE.Controller.csproj", "{5B17F065-9190-40D5-8720-F573512FD85E}"
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
@@ -13,15 +13,15 @@ Global
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs28
 		SccLocalPath0 = .
-		SccProjectUniqueName1 = DynamicsCRMCustomizationToolForExcel.AddIn\\DynamicsCRMCustomizationToolForExcel.AddIn.csproj
-		SccProjectName1 = DynamicsCRMCustomizationToolForExcel.AddIn
-		SccLocalPath1 = DynamicsCRMCustomizationToolForExcel.AddIn
-		SccProjectUniqueName2 = DynamicsCRMCustomizationToolForExcel.Controller\\DynamicsCRMCustomizationToolForExcel.Controller.csproj
-		SccProjectName2 = DynamicsCRMCustomizationToolForExcel.Controller
-		SccLocalPath2 = DynamicsCRMCustomizationToolForExcel.Controller
-		SccProjectUniqueName3 = DynamicsCRMCustomizationToolForExcel.Model\\DynamicsCRMCustomizationToolForExcel.Model.csproj
-		SccProjectName3 = DynamicsCRMCustomizationToolForExcel.Model
-		SccLocalPath3 = DynamicsCRMCustomizationToolForExcel.Model
+		SccProjectUniqueName1 = DCTE.AddIn\\DCTE.AddIn.csproj
+		SccProjectName1 = DCTE.AddIn
+		SccLocalPath1 = DCTE.AddIn
+		SccProjectUniqueName2 = DCTE.Controller\\DCTE.Controller.csproj
+		SccProjectName2 = DCTE.Controller
+		SccLocalPath2 = DCTE.Controller
+		SccProjectUniqueName3 = DCTE.Model\\DCTE.Model.csproj
+		SccProjectName3 = DCTE.Model
+		SccLocalPath3 = DCTE.Model
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DynamicsCRMCustomizationToolForExcel.Model")]
+[assembly: AssemblyTitle("DCTE.Controller")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DynamicsCRMCustomizationToolForExcel.Model")]
+[assembly: AssemblyProduct("DCTE.Controller")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a6baa387-f411-465c-bbf5-3576df81b5b6")]
+[assembly: Guid("4a11a09f-44f3-416d-a4af-839f7ffb4d75")]
 
 // Version information for an assembly consists of the following four values:
 //

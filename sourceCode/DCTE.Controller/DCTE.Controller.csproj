@@ -7,8 +7,8 @@
     <ProjectGuid>{5B17F065-9190-40D5-8720-F573512FD85E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DynamicsCRMCustomizationToolForExcel.Controller</RootNamespace>
-    <AssemblyName>DynamicsCRMCustomizationToolForExcel.Controller</AssemblyName>
+    <RootNamespace>DCTE.Controller</RootNamespace>
+    <AssemblyName>DCTE.Controller</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -85,13 +85,13 @@
     <Compile Include="ViewXml.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DynamicsCRMCustomizationToolForExcel.Model\DynamicsCRMCustomizationToolForExcel.Model.csproj">
-      <Project>{88d18d93-7bae-4bb7-9db7-6eb14ff5ffd7}</Project>
-      <Name>DynamicsCRMCustomizationToolForExcel.Model</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\DCTE.Model\DCTE.Model.csproj">
+      <Project>{88d18d93-7bae-4bb7-9db7-6eb14ff5ffd7}</Project>
+      <Name>DCTE.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -43,10 +43,10 @@
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <PublishUrl>publish\</PublishUrl>
+    <PublishUrl>..\..\Installer\</PublishUrl>
     <InstallUrl />
     <TargetCulture>en</TargetCulture>
-    <ApplicationVersion>1.0.0.9</ApplicationVersion>
+    <ApplicationVersion>1.0.0.11</ApplicationVersion>
     <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateInterval>7</UpdateInterval>
@@ -67,6 +67,11 @@
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.2 %28x86 and x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -368,16 +373,6 @@
     <None Include="Resources\Refresh_32.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DynamicsCRMCustomizationToolForExcel.Controller\DynamicsCRMCustomizationToolForExcel.Controller.csproj">
-      <Project>{5b17f065-9190-40d5-8720-f573512fd85e}</Project>
-      <Name>DynamicsCRMCustomizationToolForExcel.Controller</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DynamicsCRMCustomizationToolForExcel.Model\DynamicsCRMCustomizationToolForExcel.Model.csproj">
-      <Project>{88d18d93-7bae-4bb7-9db7-6eb14ff5ffd7}</Project>
-      <Name>DynamicsCRMCustomizationToolForExcel.Model</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Page Include="Components\ConfirmCustomization.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -393,6 +388,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Connect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DCTE.Controller\DCTE.Controller.csproj">
+      <Project>{5b17f065-9190-40d5-8720-f573512fd85e}</Project>
+      <Name>DCTE.Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DCTE.Model\DCTE.Model.csproj">
+      <Project>{88d18d93-7bae-4bb7-9db7-6eb14ff5ffd7}</Project>
+      <Name>DCTE.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
